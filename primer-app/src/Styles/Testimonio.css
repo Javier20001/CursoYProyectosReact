@@ -1,0 +1,34 @@
+.contenedorTestimonio{
+    display: flex;
+    height: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    color: antiquewhite;
+    box-shadow: 0 3px 13px 1px rgb(0,0,0 /9%);
+}
+
+.contenedorTextoTestimonio{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0a0a23;
+
+}
+.imagenTestimonio{
+    height: 100%;
+    width: auto;
+}
+.nombreTestimonio{
+    margin: 0px 15px;
+    padding-bottom: 10px;
+}
+.ocupacionTestimonio{
+    margin: 0px 15px;
+    padding-bottom: 25px;
+}
+.textoTestimonio{
+
+    padding: 0px 25px;
+    text-align: justify;
+}
