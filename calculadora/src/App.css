@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+
+.contenedorCalculadora{
+  width: 150px;
+  height: 250px;
+  border: 5px solid rgb(252, 107, 107);
+  text-align: center;
+}
