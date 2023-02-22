@@ -1,12 +1,29 @@
 .App {
   display: flex;
   justify-content: center;
-  background: black;
+  height: 100vh;
+  align-items: center;
+  background: #132648;
 }
 
 .contenedorCalculadora{
-  width: 150px;
-  height: 250px;
-  border: 5px solid rgb(252, 107, 107);
+  width: 250px;
+  height: fit-content;
+  border: 5px solid rgb(0 0 0);
   text-align: center;
+  background: #6be1e1;
+  border-radius: 10px;
+}
+
+.pantalla{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+  border: 2px solid black;
+}
+.fila{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
 }
