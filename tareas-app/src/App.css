@@ -1,0 +1,57 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+  background-color: #15152c;
+}
+
+.logoContenedor{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.logoFreecode{
+  height: 50px;
+}
+
+.contenedorAplicacion{
+  width: 400px;
+  height: 400px;
+  background-color: gray;
+  border-radius: 20px;
+  margin: 15px 0px 0px 0px;
+}
+
+.contenedorTareas{
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorAgregar{
+  display: flex;
+  margin: 20px 0px 10px 0px;
+  justify-content: center;
+}
+
+.inputAgragar{
+  width: 60%;
+  height: 35px;
+  border: 2px solid #026002;
+}
+
+.buttonAgragar{
+  background-color: #026002;
+  border: none;
+  color: white;
+}
+
+.titutlo{
+  padding: 20px 0px 0px 0px;
+  font-size: 25px;
+}

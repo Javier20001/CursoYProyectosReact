@@ -1,0 +1,12 @@
+.ContenedorTarea{
+    background-color: #212138;
+    margin-top: 15px;
+    padding: 0px 25px;
+    width: 75%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
