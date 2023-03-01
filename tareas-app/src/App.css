@@ -28,30 +28,7 @@
   margin: 15px 0px 0px 0px;
 }
 
-.contenedorTareas{
-  display: flex;
-  justify-content: center;
-}
-
-.contenedorAgregar{
-  display: flex;
-  margin: 20px 0px 10px 0px;
-  justify-content: center;
-}
-
-.inputAgragar{
-  width: 60%;
-  height: 35px;
-  border: 2px solid #026002;
-}
-
-.buttonAgragar{
-  background-color: #026002;
-  border: none;
-  color: white;
-}
-
-.titutlo{
+.titulo{
   padding: 20px 0px 0px 0px;
-  font-size: 25px;
+  font-size: 20px;
 }

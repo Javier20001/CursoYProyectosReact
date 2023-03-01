@@ -1,4 +1,4 @@
-.ContenedorTarea{
+.tarea{
     background-color: #212138;
     margin-top: 15px;
     padding: 0px 25px;
@@ -9,4 +9,10 @@
     align-items: center;
     color: white;
     border-radius: 10px;
+}
+
+.Completada{
+    background-color: #361539;
+    text-align: center;
+    text-decoration: line-through;
 }

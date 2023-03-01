@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 import freecodeCamp from './imagenes/fcc-grey.png'
 import Tarea from './contenedor/Tarea';
+import Formulario from './contenedor/Formulario';
 import {useState} from 'react';
+import ListaTareas from './contenedor/ListaDeTareas';
 
 function App() {
 
@@ -12,16 +14,8 @@ function App() {
         <img className='logoFreecode' src={freecodeCamp} alt="Logo freecode" />
       </div>
       <div className='contenedorAplicacion'>
-        <div className='titulo'>Mis Tareas</div>
-        <div className='contenedorAgregar'>
-          <input className='inputAgragar' type="text"></input>
-          <button className='buttonAgragar'>Agregar Tarea</button>
-        </div>
-        <div className='contenedorTareas'>
-          <Tarea
-            texto="estudiar programamcion"
-          />
-        </div>
+        <h1 className='titulo'>Mis Tareas</h1>
+        <ListaTareas />
       </div>
     </div>
   );
