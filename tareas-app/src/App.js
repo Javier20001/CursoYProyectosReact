@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
 import freecodeCamp from './imagenes/fcc-grey.png'
-import Tarea from './contenedor/Tarea';
-import Formulario from './contenedor/Formulario';
-import {useState} from 'react';
+
 import ListaTareas from './contenedor/ListaDeTareas';
 
 function App() {
